@@ -1,0 +1,34 @@
+Mime-Version: 1.0
+Content-Base: https://online-bloknot.ru/
+Content-Type: Multipart/related; boundary="NEXT.ITEM-BOUNDARY";type="text/html"
+
+--NEXT.ITEM-BOUNDARY
+Content-Type: text/html; charset="utf-8"
+Content-Location: https://online-bloknot.ru/
+
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" 
+xmlns:w="urn:schemas-microsoft-com:office:word" 
+xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+
+</style>
+</head>
+<body><div style="font-family:Calibri,sans-serif;font-size:11pt;"><p>&nbsp;</p><p><strong>const burger = document.getElementById('burger');<br>const mobileMenu = document.getElementById('mobileMenu');</strong></p><p><strong>burger.addEventListener('click', () =&gt; {<br>&nbsp; mobileMenu.classList.toggle('open');<br>});</strong></p><p><strong>mobileMenu.querySelectorAll('a').forEach(link =&gt; {<br>&nbsp; link.addEventListener('click', () =&gt; mobileMenu.classList.remove('open'));<br>});</strong></p><p><strong>document.querySelectorAll('a[href^="#"]').forEach(anchor =&gt; {<br>&nbsp; anchor.addEventListener('click', function (e) {<br>&nbsp; &nbsp; const target = document.querySelector(this.getAttribute('href'));<br>&nbsp; &nbsp; if (target) {<br>&nbsp; &nbsp; &nbsp; e.preventDefault();<br>&nbsp; &nbsp; &nbsp; target.scrollIntoView({ behavior: 'smooth' });<br>&nbsp; &nbsp; }<br>&nbsp; });<br>});</strong></p></div></body></html>
+--NEXT.ITEM-BOUNDARY--
